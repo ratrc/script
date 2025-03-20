@@ -13,8 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    if(maxDias)
-    {
+    if (maxDias) {
         console.log('max dias ->> ', maxDias);
     }
 });
