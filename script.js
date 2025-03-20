@@ -3,5 +3,5 @@ document.addEventListener("DOMContentLoaded", () => {
         .map(script => new URL(script.src).searchParams.get('ratId'))
         .find(id => id);
 
-    if (idd) console.log('idd', idd);
+    if (idd) console.log('idd ->>>>>', idd);
 });
