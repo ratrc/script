@@ -4,4 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
         .find(id => id);
 
     if (idd) console.log('idd ->>>>>', idd);
+    if(maxDias)
+    {
+        console.log('max dias ->> ', maxDias);
+    }
 });
